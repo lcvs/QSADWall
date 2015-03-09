@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DB72E03E1AADA4CE00DF49AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72E03D1AADA4CE00DF49AF /* main.m */; };
+		DB72E0411AADA4CE00DF49AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72E0401AADA4CE00DF49AF /* AppDelegate.m */; };
+		DB72E0431AADA4CE00DF49AF /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DB72E0421AADA4CE00DF49AF /* Images.xcassets */; };
+		DB72E0461AADA4CE00DF49AF /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB72E0441AADA4CE00DF49AF /* LaunchScreen.xib */; };
+		DB72E0521AADA4CE00DF49AF /* QSADTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72E0511AADA4CE00DF49AF /* QSADTestTests.m */; };
+		DB72E13E1AADA78100DF49AF /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DB72E13C1AADA78100DF49AF /* ViewController.m */; };
+		DB72E13F1AADA78100DF49AF /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = DB72E13D1AADA78100DF49AF /* ViewController.xib */; };
+		DB72E15B1AADBFB700DF49AF /* libQSADWall.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DB72E1561AADBF9F00DF49AF /* libQSADWall.a */; };
+		DB72E21E1AADC87300DF49AF /* QSWallResource.bundle in Resources */ = {isa = PBXBuildFile; fileRef = DB72E21D1AADC87300DF49AF /* QSWallResource.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DB72E04C1AADA4CE00DF49AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB72E0301AADA4CE00DF49AF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DB72E0371AADA4CE00DF49AF;
+			remoteInfo = QSADTest;
+		};
+		DB72E1551AADBF9F00DF49AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 801B129C199A1675007D8CD7;
+			remoteInfo = QSADWall;
+		};
+		DB72E1571AADBF9F00DF49AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 801B12AC199A1675007D8CD7;
+			remoteInfo = QSADWallTests;
+		};
+		DB72E1591AADBF9F00DF49AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8056B501199C65CB00A20918;
+			remoteInfo = QSWallResource;
+		};
+		DB72E15C1AADBFD700DF49AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 801B129B199A1675007D8CD7;
+			remoteInfo = QSADWall;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DB72E0381AADA4CE00DF49AF /* QSADTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSADTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB72E03C1AADA4CE00DF49AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB72E03D1AADA4CE00DF49AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		DB72E03F1AADA4CE00DF49AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		DB72E0401AADA4CE00DF49AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		DB72E0421AADA4CE00DF49AF /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		DB72E0451AADA4CE00DF49AF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		DB72E04B1AADA4CE00DF49AF /* QSADTestTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QSADTestTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		DB72E0501AADA4CE00DF49AF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DB72E0511AADA4CE00DF49AF /* QSADTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QSADTestTests.m; sourceTree = "<group>"; };
+		DB72E13B1AADA78100DF49AF /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		DB72E13C1AADA78100DF49AF /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		DB72E13D1AADA78100DF49AF /* ViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ViewController.xib; sourceTree = "<group>"; };
+		DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = QSADWall.xcodeproj; path = QSADWall/QSADWall.xcodeproj; sourceTree = "<group>"; };
+		DB72E21D1AADC87300DF49AF /* QSWallResource.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = QSWallResource.bundle; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DB72E0351AADA4CE00DF49AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72E15B1AADBFB700DF49AF /* libQSADWall.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB72E0481AADA4CE00DF49AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DB72E02F1AADA4CE00DF49AF = {
+			isa = PBXGroup;
+			children = (
+				DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */,
+				DB72E03A1AADA4CE00DF49AF /* QSADTest */,
+				DB72E04E1AADA4CE00DF49AF /* QSADTestTests */,
+				DB72E0391AADA4CE00DF49AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DB72E0391AADA4CE00DF49AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E0381AADA4CE00DF49AF /* QSADTest.app */,
+				DB72E04B1AADA4CE00DF49AF /* QSADTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB72E03A1AADA4CE00DF49AF /* QSADTest */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E03F1AADA4CE00DF49AF /* AppDelegate.h */,
+				DB72E0401AADA4CE00DF49AF /* AppDelegate.m */,
+				DB72E13B1AADA78100DF49AF /* ViewController.h */,
+				DB72E13C1AADA78100DF49AF /* ViewController.m */,
+				DB72E13D1AADA78100DF49AF /* ViewController.xib */,
+				DB72E0421AADA4CE00DF49AF /* Images.xcassets */,
+				DB72E0441AADA4CE00DF49AF /* LaunchScreen.xib */,
+				DB72E21C1AADC84C00DF49AF /* Resource */,
+				DB72E03B1AADA4CE00DF49AF /* Supporting Files */,
+			);
+			path = QSADTest;
+			sourceTree = "<group>";
+		};
+		DB72E03B1AADA4CE00DF49AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E03C1AADA4CE00DF49AF /* Info.plist */,
+				DB72E03D1AADA4CE00DF49AF /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB72E04E1AADA4CE00DF49AF /* QSADTestTests */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E0511AADA4CE00DF49AF /* QSADTestTests.m */,
+				DB72E04F1AADA4CE00DF49AF /* Supporting Files */,
+			);
+			path = QSADTestTests;
+			sourceTree = "<group>";
+		};
+		DB72E04F1AADA4CE00DF49AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E0501AADA4CE00DF49AF /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DB72E1501AADBF9F00DF49AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E1561AADBF9F00DF49AF /* libQSADWall.a */,
+				DB72E1581AADBF9F00DF49AF /* QSADWallTests.xctest */,
+				DB72E15A1AADBF9F00DF49AF /* QSWallResource.bundle */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DB72E21C1AADC84C00DF49AF /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				DB72E21D1AADC87300DF49AF /* QSWallResource.bundle */,
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DB72E0371AADA4CE00DF49AF /* QSADTest */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB72E0551AADA4CE00DF49AF /* Build configuration list for PBXNativeTarget "QSADTest" */;
+			buildPhases = (
+				DB72E0341AADA4CE00DF49AF /* Sources */,
+				DB72E0351AADA4CE00DF49AF /* Frameworks */,
+				DB72E0361AADA4CE00DF49AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB72E15D1AADBFD700DF49AF /* PBXTargetDependency */,
+			);
+			name = QSADTest;
+			productName = QSADTest;
+			productReference = DB72E0381AADA4CE00DF49AF /* QSADTest.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DB72E04A1AADA4CE00DF49AF /* QSADTestTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DB72E0581AADA4CE00DF49AF /* Build configuration list for PBXNativeTarget "QSADTestTests" */;
+			buildPhases = (
+				DB72E0471AADA4CE00DF49AF /* Sources */,
+				DB72E0481AADA4CE00DF49AF /* Frameworks */,
+				DB72E0491AADA4CE00DF49AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DB72E04D1AADA4CE00DF49AF /* PBXTargetDependency */,
+			);
+			name = QSADTestTests;
+			productName = QSADTestTests;
+			productReference = DB72E04B1AADA4CE00DF49AF /* QSADTestTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DB72E0301AADA4CE00DF49AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = LC;
+				TargetAttributes = {
+					DB72E0371AADA4CE00DF49AF = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					DB72E04A1AADA4CE00DF49AF = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = DB72E0371AADA4CE00DF49AF;
+					};
+				};
+			};
+			buildConfigurationList = DB72E0331AADA4CE00DF49AF /* Build configuration list for PBXProject "QSADTest" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DB72E02F1AADA4CE00DF49AF;
+			productRefGroup = DB72E0391AADA4CE00DF49AF /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = DB72E1501AADBF9F00DF49AF /* Products */;
+					ProjectRef = DB72E14F1AADBF9F00DF49AF /* QSADWall.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				DB72E0371AADA4CE00DF49AF /* QSADTest */,
+				DB72E04A1AADA4CE00DF49AF /* QSADTestTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		DB72E1561AADBF9F00DF49AF /* libQSADWall.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libQSADWall.a;
+			remoteRef = DB72E1551AADBF9F00DF49AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB72E1581AADBF9F00DF49AF /* QSADWallTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QSADWallTests.xctest;
+			remoteRef = DB72E1571AADBF9F00DF49AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		DB72E15A1AADBF9F00DF49AF /* QSWallResource.bundle */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = QSWallResource.bundle;
+			remoteRef = DB72E1591AADBF9F00DF49AF /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DB72E0361AADA4CE00DF49AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72E13F1AADA78100DF49AF /* ViewController.xib in Resources */,
+				DB72E21E1AADC87300DF49AF /* QSWallResource.bundle in Resources */,
+				DB72E0461AADA4CE00DF49AF /* LaunchScreen.xib in Resources */,
+				DB72E0431AADA4CE00DF49AF /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB72E0491AADA4CE00DF49AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DB72E0341AADA4CE00DF49AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72E0411AADA4CE00DF49AF /* AppDelegate.m in Sources */,
+				DB72E03E1AADA4CE00DF49AF /* main.m in Sources */,
+				DB72E13E1AADA78100DF49AF /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DB72E0471AADA4CE00DF49AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DB72E0521AADA4CE00DF49AF /* QSADTestTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DB72E04D1AADA4CE00DF49AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DB72E0371AADA4CE00DF49AF /* QSADTest */;
+			targetProxy = DB72E04C1AADA4CE00DF49AF /* PBXContainerItemProxy */;
+		};
+		DB72E15D1AADBFD700DF49AF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = QSADWall;
+			targetProxy = DB72E15C1AADBFD700DF49AF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		DB72E0441AADA4CE00DF49AF /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				DB72E0451AADA4CE00DF49AF /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		DB72E0531AADA4CE00DF49AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		DB72E0541AADA4CE00DF49AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		DB72E0561AADA4CE00DF49AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/QSWallManager",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/ADWall",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Banner",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/InsertScreen",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Libs",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/GlobalFunction",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Model",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/RecommendWall",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Views",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Resource",
+				);
+				INFOPLIST_FILE = QSADTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		DB72E0571AADA4CE00DF49AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/QSWallManager",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/ADWall",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Banner",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/InsertScreen",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Libs",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/GlobalFunction",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Model",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/RecommendWall",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Views",
+					"${SRCROOT}/QSADWall/QSADWall/QSADWallSDK/Resource",
+				);
+				INFOPLIST_FILE = QSADTest/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		DB72E0591AADA4CE00DF49AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QSADTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSADTest.app/QSADTest";
+			};
+			name = Debug;
+		};
+		DB72E05A1AADA4CE00DF49AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = QSADTestTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QSADTest.app/QSADTest";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DB72E0331AADA4CE00DF49AF /* Build configuration list for PBXProject "QSADTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB72E0531AADA4CE00DF49AF /* Debug */,
+				DB72E0541AADA4CE00DF49AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DB72E0551AADA4CE00DF49AF /* Build configuration list for PBXNativeTarget "QSADTest" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB72E0561AADA4CE00DF49AF /* Debug */,
+				DB72E0571AADA4CE00DF49AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		DB72E0581AADA4CE00DF49AF /* Build configuration list for PBXNativeTarget "QSADTestTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DB72E0591AADA4CE00DF49AF /* Debug */,
+				DB72E05A1AADA4CE00DF49AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DB72E0301AADA4CE00DF49AF /* Project object */;
+}
